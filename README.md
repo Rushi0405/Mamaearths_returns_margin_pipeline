@@ -3,7 +3,9 @@ Mamaearth Returns-vs-Margin Pipeline
 SQL → Python (pandas) → GenAI (Gemini). This is an end-to-end pipeline that checks whether product returns are eating into Mamaearth's margins, and explains the answer in plain business language.
 ---
 Contents:
-The problem we are solving
+The problem we are solving.
+[README.md](https://github.com/user-attachments/files/33280115/README.md)
+
 Key results at a glance
 How the pipeline works
 Repository structure
