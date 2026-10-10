@@ -10,7 +10,7 @@
 -- Notes:
 -- 1) Revenue of one order = quantity * price * (1 - discount_pct / 100.0)
 --    COALESCE(discount_pct, 0) treats a missing (NULL) discount as 0%.
---    We divide by 100.0 (not 100) because in SQLite 10 / 100 = 0 (whole-number
+--    Divide by 100.0 (not 100) because in SQLite 10 / 100 = 0 (whole-number
 --    division), which would wrongly remove every discount.
 -- 2) printf('%.2f', ...) only shows money with 2 decimals (99860.20 instead of
 --    99860.2). Sorting is always done on the number, not on this text.
