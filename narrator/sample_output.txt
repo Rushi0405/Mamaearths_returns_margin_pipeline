@@ -1,0 +1,11 @@
+# Gemini output - model: gemini-3.1-flash-lite, temperature: 0.0, tokens: 973
+# Generated from narrator/findings.json by narrator/generate_narrative.py
+
+Situation:
+Our recent financial audit of sales performance reveals a raw total revenue of Rs 99,860.20. After removing duplicate orders, our cleaned total revenue stands at Rs 97,358.30. While January 2026 initially appeared to be our strongest month at Rs 29,582.10, this figure was inflated by bulk outlier orders. Once corrected, the true revenue for January 2026 is Rs 11,637.10, confirming that March 2026 remains our true peak month with Rs 20,318.90 in revenue.
+
+Complication:
+We are currently facing significant revenue leakage and operational inefficiencies. Duplicate, double-submitted orders accounted for a loss of Rs 2,501.90. Furthermore, our return rates vary drastically by payment method, with COD at 44.4%, UPI at 18.9%, and CARD at 14.7%. The most critical concern is our highest-risk segment, which consists of COD orders in Tier-2 cities, where we are experiencing an alarming return rate of 54.5%.
+
+Resolution:
+To stabilize our margins, the finance and operations teams must immediately implement a pre-payment incentive program for Tier-2 city customers to shift them away from COD. Operations should also integrate a real-time duplicate order detection system to prevent the recurrence of the Rs 2,501.90 loss identified in this audit. Finally, we must prioritize the promotion of UPI and CARD payment methods at checkout to leverage their significantly lower return rates compared to the 44.4% observed in COD transactions. These steps will ensure our revenue reporting remains accurate and our logistics costs are better controlled moving forward.
