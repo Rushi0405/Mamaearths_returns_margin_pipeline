@@ -311,6 +311,30 @@ print(f"\nConclusion: {month_with} only looks like the best month because both b
 
 
 # ---------------------------------------------------------------------
+# Save the cleaned data as CSV files (analysis/cleaned_data/)
+# ---------------------------------------------------------------------
+# The raw files in data/ are never changed. The cleaned versions are saved separately.
+print("\n========== Save cleaned data ==========")
+os.makedirs("analysis/cleaned_data", exist_ok=True)
+
+# 1) Cleaned orders: casing fixed, 5 duplicates removed, missing values filled (175 rows, 9 columns)
+orders_clean.to_csv("analysis/cleaned_data/orders_clean.csv", index=False)
+
+# 2) Customers and products had no problems to fix, so they are saved unchanged
+customers.to_csv("analysis/cleaned_data/customers_clean.csv", index=False)
+products.to_csv("analysis/cleaned_data/products_clean.csv", index=False)
+
+# 3) Full analysis table: cleaned orders joined with products and customers,
+#    plus order_value, is_outlier and year_month (175 rows) - the data behind the charts
+merged.to_csv("analysis/cleaned_data/orders_merged_clean.csv", index=False)
+
+print("Saved analysis/cleaned_data/orders_clean.csv        ->", orders_clean.shape)
+print("Saved analysis/cleaned_data/customers_clean.csv     ->", customers.shape)
+print("Saved analysis/cleaned_data/products_clean.csv      ->", products.shape)
+print("Saved analysis/cleaned_data/orders_merged_clean.csv ->", merged.shape)
+
+
+# ---------------------------------------------------------------------
 # Final step: write the verified results to narrator/findings.json (for Part 3)
 # ---------------------------------------------------------------------
 # Every value below is a variable calculated above - nothing is typed in by hand.
