@@ -1,10 +1,8 @@
-# Mamaearths_returns_margin_pipeline
-End-to-end returns-vs-margin analysis for Mamaearth: SQLite reports, pandas cleaning and EDA, and a Gemini-powered business summary (with an offline fallback). Shows that COD orders return at 44.4%, rising to 54.5% in Tier-2 cities.
 
 Mamaearth Returns-vs-Margin Pipeline
 SQL → Python (pandas) → GenAI (Gemini). This is an end-to-end pipeline that checks whether product returns are eating into Mamaearth's margins, and explains the answer in plain business language.
 ---
-Contents
+Contents:
 The problem we are solving
 Key results at a glance
 How the pipeline works
