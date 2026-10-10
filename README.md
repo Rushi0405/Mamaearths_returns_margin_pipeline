@@ -325,6 +325,7 @@ The second problem was a hardcoded number. In my first version of the Python scr
 The first thing I’d want is the reason behind each return. Right now the data only records whether an order came back (1 or 0), not why. If most COD returns turn out to be customers refusing the parcel at the door, confirming orders before dispatch or rewarding prepaid payment would make sense. If the main cause is damaged products, the focus should be on packaging and delivery instead. Knowing the reason would show Mamaearth where to act first.
 
 The second is return rates at the product and category level. My analysis broke revenue down by category, but not returns. A handful of products could be coming back far more often than everything else. If so, fixing those would be quicker and cheaper than tackling an entire payment method.
+
 ---
 
 ## **AI assistance**
