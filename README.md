@@ -330,6 +330,6 @@ The second is return rates at the product and category level. My analysis broke 
 
 ## **AI assistance**
 
-I used Claude and Gemini as an AI assistant on this project. It helped me convert the raw data into CSV files, write the Python code for analysis and chart, and the Gemini narrator, and it drafted this README, including the Reflections. I asked for simple, well-commented code so that I could follow as well as other's and explained each step.
+I used Claude and Gemini as an AI assistant on this project. It helped me convert the raw data into CSV files and Created the mamaearths database, write the Python code for analysis and chart, and the Gemini narrator, and it drafted this README, including the Reflections. I asked for simple, well-commented code so that I could follow as well as other's and explained each step.
 
 I provided the raw data, ran the code myself in Google Colab, generated sample_output.txt with my own Gemini key.
